@@ -25,10 +25,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/style.css" 
             ],
-            "scripts": []
-          },
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/main.js"
+            ]
+          },       
+            
           "configurations": {
             "production": {
               "budgets": [
@@ -94,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "34182d06-c7ed-4e28-b2ec-7ccbde17c72c"
   }
 }
