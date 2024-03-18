@@ -3,20 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { LoginComponent } from './login/login.component';
-import { ProfilComponent } from './profil/profil.component';
-import { ChoosePersComponent } from './choose-pers/choose-pers.component';
-import { SignupEnseignantComponent } from './signup-enseignant/signup-enseignant.component';
+import { CoursComponent } from './cours/cours.component';
+import { CourseDetailsComponent } from './course-details/course-details.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent,
-    LoginComponent,
-    ProfilComponent,
-    ChoosePersComponent,
-    SignupEnseignantComponent
+    CoursComponent,
+    CourseDetailsComponent
+    
   ],
   imports: [
     BrowserModule,
