@@ -9,6 +9,9 @@ import { ProfilComponent } from './profil/profil.component';
 import { ChoosePersComponent } from './choose-pers/choose-pers.component';
 import { SignupEnseignantComponent } from './signup-enseignant/signup-enseignant.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { CoursComponent } from './cours/cours.component';
+
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { HomeComponent } from './home/home.component';
     ChoosePersComponent,
     SignupEnseignantComponent,
     HomeComponent,
+    AboutComponent,
+    CoursComponent,
+  
   
   ],
   imports: [

@@ -1,0 +1,156 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a href="index.html" class="logo me-auto"
+      ><img src="../../assets/02/Tutturu.png" alt="" class="img-fluid"
+    /></a>
+
+    <nav id="navbar" class="navbar">
+      <ul [ngClass]="{ active: isMobileNavOpen }">
+        <li><a class="nav-link scrollto active" href="/landing-page">Accueil</a></li>
+        <li><a class="nav-link scrollto" href="/about">À propos</a></li>
+
+        <li class="dropdown">
+          <a href="/cours"><span>Cours</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Dévelopment web</a></li>
+            <li><a href="#">Conception web</a></li>
+            <li><a href="#">Photoshop</a></li>
+            <li><a href="#">Conception Graphique</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+        <li>
+          <a class="getstarted scrollto" href="/login" router-link="/login"
+            >Commencer</a
+          >
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle" (click)="toggleMobileNav()"></i>
+    </nav>
+    <!-- .navbar -->
+  </div>
+</header>
+<!-- End Header -->
+
+
+<!-- ======= Hero Section ======= -->
+<section id="hero1" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row gy-5 justify-content-center align-items-center">
+      <div class="col-lg-6">
+        <img src="../../assets/02/Elearning10072006-Converted0.png" title="" alt="" style="max-width: 80%; height: auto;" class="hero-img animated">
+      </div>
+      <div class="col-lg-6 ps-xxl-10">
+       
+        <h4>Notre mission est de fournir des ressources éducatives de qualité, tout en favorisant la collaboration et l'exploration pour offrir un apprentissage enrichissant à tous les enfants.</h4>
+        
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<main id="main">
+
+
+ 
+ 
+  <section class="section bg-gray-100">
+    <div class="container">
+      <div class="row gy-5 justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-5">
+          <h6 class="letter-spacing-2 text-primary mb-3">Build Better and Faster</h6>
+          <h2 class="h1 mb-4">Grow up your skills by online courses</h2>
+          <p>We've added 500+ learning opportunities to create one of the world's most comprehensive free-to-degree online learning platforms.</p>
+          <div class="row gy-5 pt-3">
+            <div class="col-6">
+              <h6 class="h1 lh-1 text-primary"><span class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="12">12</span>K</h6><span class="fs-sm pt-1">Active Students</span>
+            </div>
+            <div class="col-6">
+              <h6 class="h1 lh-1 text-primary"><span class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="15">15</span>K</h6><span class="fs-sm pt-1">Global Users</span>
+            </div>
+            <div class="col-6">
+              <h6 class="h1 lh-1 text-primary"><span class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="100">100</span>%</h6><span class="fs-sm pt-1">Successfull Users</span>
+            </div>
+            <div class="col-6">
+              <h6 class="h1 lh-1 text-primary"><span class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="15">15</span>%</h6><span class="fs-sm pt-1">5 Star Reviews</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6"><img src="../../assets/02/telescope.png" title="" alt="" style="max-width: 100%;" height="auto"></div>
+      </div>
+    </div>
+  </section><!-- end section -->
+
+
+<!-- ======= Footer ======= -->
+<footer id="footer" >
+  <div class="footer-top">
+    <div class="container">
+      <div class="row" style="justify-content: center;">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <img src="../../assets/02/Tutturu.png">
+          
+          <p>
+            Nabeul, Tunisie<br />
+
+            <strong>Téléphone:</strong>+216 22222222<br />
+            <strong>Email:</strong> info@example.com<br />
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>liens utiles</h4>
+          <ul>
+            <li>
+              <i class="bx bx-chevron-right"></i> <a href="/login">Connecter</a>
+            </li>
+            <li>
+              <i class="bx bx-chevron-right"></i>
+              <a href="/choosePers">Inscription</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li>
+              <i class="bx bx-chevron-right"></i>
+              <a href="#">Cours interactifs captivants</a>
+            </li>
+            <li>
+              <i class="bx bx-chevron-right"></i>
+              <a href="#">Quizzes éducatifs stimulants</a>
+            </li>
+            <li>
+              <i class="bx bx-chevron-right"></i>
+              <a href="#">Communauté d'apprentissage dynamique</a>
+            </li>
+            <li>
+              <i class="bx bx-chevron-right"></i>
+              <a href="#">Suivi personnalisé et récompenses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom clearfix"  >
+    <div class="copyright">
+      © Copyright <strong><span >2023</span></strong>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+<a
+  href="#"
+  class="back-to-top d-flex align-items-center justify-content-center"
+>
+  <i class="bi bi-arrow-up-short"></i>
+</a>

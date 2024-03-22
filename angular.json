@@ -26,12 +26,15 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/style.css" 
+              "src/assets/css/style.css" ,
+              "src/assets/assets2/css/style.css" 
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/js/main.js"
+              "src/assets/js/main.js",
+            
+              "src/assets/assets2/js/functions.js"
             ]
           },       
             

@@ -1,0 +1,441 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+	<div class="container d-flex align-items-center">
+	  <a href="index.html" class="logo me-auto"
+		><img src="../../assets/02/Tutturu.png" alt="" class="img-fluid"
+	  /></a>
+  
+	  <nav id="navbar" class="navbar">
+		<ul [ngClass]="{ active: isMobileNavOpen }">
+		  <li><a class="nav-link scrollto active" href="/landing-page">Accueil</a></li>
+		  <li><a class="nav-link scrollto" href="/about">À propos</a></li>
+  
+		  <li class="dropdown">
+			<a href="/cours"><span>Cours</span> <i class="bi bi-chevron-down"></i></a>
+			<ul>
+			  <li><a href="#">Dévelopment web</a></li>
+			  <li><a href="#">Conception web</a></li>
+			  <li><a href="#">Photoshop</a></li>
+			  <li><a href="#">Conception Graphique</a></li>
+			</ul>
+		  </li>
+		  <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+		  <li>
+			<a class="getstarted scrollto" href="/login" router-link="/login"
+			  >Commencer</a
+			>
+		  </li>
+		</ul>
+		<i class="bi bi-list mobile-nav-toggle" (click)="toggleMobileNav()"></i>
+	  </nav>
+	  <!-- .navbar -->
+	</div>
+  </header>
+  <!-- End Header -->
+
+
+<main>
+<section class="bg-blue align-items-center d-flex" style=" background:url(../../assets/pattern/04.png) no-repeat center center; background-size:cover ; height: 600px;  ">
+	<div class="container1">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="row">
+					<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+						<h2 style="color: white; margin-left: 10px;">Découvrez nos cours interactifs, Des leçons passionnantes dans divers sujets, du codage à l'art, vous attendent !</h2>
+					</div>
+					<div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+						<img src="../../assets/02/cc1.png" class="img-fluid animated" alt="" style="max-width: 60%; animation: up-down 2s ease-in-out infinite alternate-reverse both;" />
+					</div>
+					
+					<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-4 order-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+						<h2 style="color: white;"></h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<!-- =======================
+Page Banner END -->
+
+<!-- =======================
+Page content START -->
+<section class="py-5">
+<div class="container1">
+	<div class="row">
+		<!-- Main content START -->
+		<div class="col-lg-8 col-xl-9">
+
+		
+			<!-- Course Grid START -->
+			<div class="row g-4" style="margin-left: 50px; margin-right: 50px;">
+	<!--html-->
+	<div class="col-sm-6 col-xl-4">
+		<div class="card shadow h-100">
+			<!-- Image -->
+			<img src="../../assets/courses/4by3/11.jpg" class="card-img-top" alt="course image">
+			<div class="card-body pb-0">
+				
+				<!-- Title -->
+				<h5 class="card-title"><a href="#">HTML</a></h5>
+				<p class="text-truncate-2 mb-2">Explorez HTML</p>
+				<p class="text-truncate-2 mb-2">Créer la structure de base de vos pages web et donner vie à vos idées en ligne.</p>
+			
+			</div>
+			<!-- Card footer -->
+			<div class="card-footer pt-0 pb-3">
+				<hr>
+				<div class="d-flex justify-content-between">
+					<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h 32m</span>
+					<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>42 lectures</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--css-->
+	<div class="col-sm-6 col-xl-4">
+		<div class="card shadow h-100">
+			<!-- Image -->
+			<img src="../../assets/courses/4by3/12.jpg" class="card-img-top" alt="course image">
+			<div class="card-body pb-0">
+				
+				<!-- Title -->
+				<h5 class="card-title"><a href="#">CSS</a></h5>
+				<p class="text-truncate-2 mb-2">Découvrez CSS </p>
+					<p class="text-truncate-2 mb-2">Pour créer des styles attrayants et améliorer l'apparence de vos sites web.</p>
+			</div>
+			<!-- Card footer -->
+			<div class="card-footer pt-0 pb-3">
+				<hr>
+				<div class="d-flex justify-content-between">
+					<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h 32m</span>
+					<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>42 lectures</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Card item START -->
+	<div class="col-sm-6 col-xl-4">
+		<div class="card shadow h-100">
+			<!-- Image -->
+			<img src="../../assets/courses/4by3/06.jpg" class="card-img-top" alt="course image">
+			<div class="card-body pb-0">
+				
+				<!-- Title -->
+				<h5 class="card-title"><a href="#">Angular </a></h5>
+				<p class="text-truncate-2 mb-2">Découvrez Angular  </p>
+					<p class="text-truncate-2 mb-2">Framework moderne pour une application web dynamique et réactive.</p>
+			
+			</div>
+			<!-- Card footer -->
+			<div class="card-footer pt-0 pb-3">
+				<hr>
+				<div class="d-flex justify-content-between">
+					<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h 32m</span>
+					<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>42 lectures</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Card item END -->
+                           <div class="col-sm-6 col-xl-4">
+					<div class="card shadow h-100">
+						<!-- Image -->
+						<img src="../../assets/courses/htmlcssjs.jpg" class="card-img-top" alt="course image">
+						<div class="card-body pb-0">
+							<!-- Badge and favorite -->
+						
+							<!-- Title -->
+							<h5 class="card-title"><a href="#">HTML/CSS/JS</a></h5>
+							<p class="mb-2 text-truncate-2">Découvrez la construction web avec notre cours HTML/CSS/JS.</p>
+							<p class="mb-2 text-truncate-2">Apprenez à créer des sites dynamiques avec facilité.</p>
+							
+						</div>
+						<!-- Card footer -->
+						<div class="card-footer pt-0 pb-3">
+							<hr>
+							<div class="d-flex justify-content-between">
+								<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6 mois</span>
+								<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>68 lectures</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card item END -->
+
+				<!-- Card item START -->
+				<div class="col-sm-6 col-xl-4">
+					<div class="card shadow h-100">
+						<!-- Image -->
+						<img src="../../assets/courses/photoo1.jpg" class="card-img-top" alt="course image">
+						<div class="card-body pb-0">
+							
+							<!-- Title -->
+							<h5 class="card-title"><a href="#">Photoshop</a></h5>
+							<p class="text-truncate-2 mb-2">Maîtrisez Photoshop pour libérer votre créativité. </p>
+							<p class="text-truncate-2 mb-2">Rejoignez-nous pour explorer la conception graphique et donner vie à vos idées.</p>
+						
+						</div>
+						<!-- Card footer -->
+						<div class="card-footer pt-0 pb-3">
+							<hr>
+							<div class="d-flex justify-content-between">
+								<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>36h 30m</span>
+								<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>72 lectures</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card item END -->
+
+				<!-- Card item START -->
+				<div class="col-sm-6 col-xl-4">
+					<div class="card shadow h-100">
+						<!-- Image -->
+						<img src="../../assets/courses/4by3/05.jpg" class="card-img-top" alt="course image">
+						<div class="card-body pb-0">
+							
+							<!-- Title -->
+							<h5 class="card-title"><a href="#">PYTHON</a></h5>
+							<p class="text-truncate-2 mb-2">Libérez votre créativité avec notre cours Python interactif.</p>
+						    <p class="text-truncate-2 mb-2">Transformez vos idées en projets concrets dès aujourd'hui.</p>
+						
+						</div>
+						<!-- Card footer -->
+						<div class="card-footer pt-0 pb-3">
+							<hr>
+							<div class="d-flex justify-content-between">
+								<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>10h 00m</span>
+								<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>26 lectures</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card item END -->
+        <div class="col-sm-6 col-xl-4">
+					<div class="card shadow h-100">
+						<!-- Image -->
+						<img src="../../assets/courses/uiux2.jpg" class="card-img-top" alt="course image">
+						<div class="card-body pb-0">
+							
+							<!-- Title -->
+							<h5 class="card-title"><a href="#">UI UX design</a></h5>
+							<p class="text-truncate-2 mb-2">Explorez le design UX/UI avec nous : la clé pour des expériences numériques inoubliables. </p>
+						    <p class="text-truncate-2 mb-2">Rejoignez-nous pour façonner l'avenir du design.</p>
+							
+							
+						</div>
+						<!-- Card footer -->
+						<div class="card-footer pt-0 pb-3">
+							<hr>
+							<div class="d-flex justify-content-between">
+								<span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>10h 00m</span>
+								<span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>26 lectures</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+
+			
+			</div>
+			<!-- Course Grid END -->
+
+		
+		</div>
+		<!-- Main content END -->
+
+		<!-- Right sidebar START -->
+		<div class="col-lg-4 col-xl-3">
+			<!-- Responsive offcanvas body START -->
+			<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasSidebar">
+				<div class="offcanvas-header bg-light">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Advance Filter</h5>
+					<button  type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasSidebar" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body p-3 p-lg-0">
+					<form>
+							<!-- Category START -->
+							<div class="card card-body shadow p-4 mb-4">
+								<!-- Title -->
+								<h4 class="mb-3">Category</h4>
+								<!-- Category group -->
+								<div class="col-12">
+									<!-- Checkbox -->
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+											<label class="form-check-label" for="flexCheckDefault9">Tous</label>
+										</div>
+										
+									</div>
+									<!-- Checkbox -->
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+											<label class="form-check-label" for="flexCheckDefault10">Development</label>
+										</div>
+									
+									</div>
+									<!-- Checkbox -->
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+											<label class="form-check-label" for="flexCheckDefault11">Design</label>
+										</div>
+										
+									</div>
+									<!-- Checkbox -->
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+											<label class="form-check-label" for="flexCheckDefault12">Conception web</label>
+										</div>
+										
+									</div>
+								
+								
+									<a class=" p-0 mb-0 mt-2 btn-more d-flex align-items-center" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+										See <span class="see-more ms-1">more</span><i class="fas fa-angle-down ms-2"></i>
+									</a>
+								</div>
+							</div>
+							<!-- Category END -->
+	
+							
+	
+						
+          </form>
+        </div>
+			</div>
+			<!-- Responsive offcanvas body END -->
+		</div>
+		<!-- Right sidebar END -->
+	</div><!-- Row END -->
+</div>
+</section>
+
+ <!-- ======= Skills Section ======= -->
+ <section id="skills" class="skills">
+	<div class="container" data-aos="fade-up">
+
+	  <div class="row">
+		<div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+		  <img src="../../assets/02/enfants-prenant-cours-ligne_23-2148517076.jpg" class="img-fluid" alt="">
+		</div>
+		<div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+		  <h3>Explorez nos cours les plus populaires</h3>
+		  <p class="fst-italic">
+			Plongez dans nos cours les plus populaires, où chaque leçon est un trésor d'apprentissage, attendant d'être découvert et exploré.
+		  </p>
+
+		  <div class="skills-content">
+
+			<div class="progress1">
+			  <span class="skill">HTML <i class="val">100%</i></span>
+			  <div class="progress-bar-wrap">
+				<div class="progress-bar" style="width: 100%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			</div>
+
+			<div class="progress">
+			  <span class="skill">CSS <i class="val">90%</i></span>
+			  <div class="progress-bar-wrap">
+				<div class="progress-bar" style="width: 90%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			</div>
+
+			<div class="progress">
+			  <span class="skill">UI UX Design <i class="val">75%</i></span>
+			  <div class="progress-bar-wrap">
+				<div class="progress-bar" style="width: 75%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			</div>
+
+			<div class="progress">
+			  <span class="skill">Photoshop <i class="val">55%</i></span>
+			  <div class="progress-bar-wrap">
+				<div class="progress-bar"  style="width: 55%;"role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			</div>
+
+		  </div>
+
+		</div>
+	  </div>
+
+	</div>
+  </section><!-- End Skills Section -->
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer" >
+	<div class="footer-top">
+	  <div class="container">
+		<div class="row" style="justify-content: center;">
+		  <div class="col-lg-3 col-md-6 footer-contact">
+			<img src="../../assets/02/Tutturu.png">
+			
+			<p>
+			  Nabeul, Tunisie<br />
+  
+			  <strong>Téléphone:</strong>+216 22222222<br />
+			  <strong>Email:</strong> info@example.com<br />
+			</p>
+		  </div>
+  
+		  <div class="col-lg-3 col-md-6 footer-links">
+			<h4>liens utiles</h4>
+			<ul>
+			  <li>
+				<i class="bx bx-chevron-right"></i> <a href="/login">Connecter</a>
+			  </li>
+			  <li>
+				<i class="bx bx-chevron-right"></i>
+				<a href="/choosePers">Inscription</a>
+			  </li>
+			</ul>
+		  </div>
+  
+		  <div class="col-lg-3 col-md-6 footer-links">
+			<h4>Nos Services</h4>
+			<ul>
+			  <li>
+				<i class="bx bx-chevron-right"></i>
+				<a href="#">Cours interactifs captivants</a>
+			  </li>
+			  <li>
+				<i class="bx bx-chevron-right"></i>
+				<a href="#">Quizzes éducatifs stimulants</a>
+			  </li>
+			  <li>
+				<i class="bx bx-chevron-right"></i>
+				<a href="#">Communauté d'apprentissage dynamique</a>
+			  </li>
+			  <li>
+				<i class="bx bx-chevron-right"></i>
+				<a href="#">Suivi personnalisé et récompenses</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  
+	<div class="container footer-bottom clearfix"  >
+	  <div class="copyright">
+		© Copyright <strong><span >2023</span></strong>
+	  </div>
+	</div>
+  </footer>
+  <!-- End Footer -->
+  
+  <a
+	href="#"
+	class="back-to-top d-flex align-items-center justify-content-center"
+  >
+	<i class="bi bi-arrow-up-short"></i>
+  </a>
+  

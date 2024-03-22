@@ -7,11 +7,11 @@
 
     <nav id="navbar" class="navbar">
       <ul [ngClass]="{ active: isMobileNavOpen }">
-        <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-        <li><a class="nav-link scrollto" href="#about">À propos</a></li>
+        <li><a class="nav-link scrollto active" href="/landing-page">Accueil</a></li>
+        <li><a class="nav-link scrollto" href="/about">À propos</a></li>
 
         <li class="dropdown">
-          <a href="#"><span>Cours</span> <i class="bi bi-chevron-down"></i></a>
+          <a href="/cours"><span>Cours</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Dévelopment web</a></li>
             <li><a href="#">Conception web</a></li>
@@ -19,7 +19,7 @@
             <li><a href="#">Conception Graphique</a></li>
           </ul>
         </li>
-        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
         <li>
           <a class="getstarted scrollto" href="/login" router-link="/login"
             >Commencer</a
@@ -76,7 +76,18 @@
           class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
         >
           <img
-            src="../../assets/garcon-naviguant-reseaux-sociaux_1308-118731.jpg"
+            src="../../assets/02/garcon-naviguant-reseaux-sociaux_1308-118731.jpg"
+            class="img-fluid"
+            alt=""
+           
+          />
+        </div>
+
+        <div
+          class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="../../assets/02/enfants-prenant-cours-ligne_23-2148499070.jpg"
             class="img-fluid"
             alt=""
           />
@@ -86,7 +97,7 @@
           class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
         >
           <img
-            src="../../assets/enfants-prenant-cours-ligne_23-2148499070.jpg"
+            src="../../assets/02/vecteur-enfants-etudiant-graphique-plat-classe-ligne_53876-105789.jpg"
             class="img-fluid"
             alt=""
           />
@@ -96,7 +107,7 @@
           class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
         >
           <img
-            src="../../assets/vecteur-enfants-etudiant-graphique-plat-classe-ligne_53876-105789.jpg"
+            src="../../assets/02/concept-apprentissage-education-amour-lecture-personnes-lisant-etudiants-etudiant-se-preparant-examen-dans-bibliotheque-amoureux-livres-lecteurs-litterature-moderne-illustration-vectoriell.jpg"
             class="img-fluid"
             alt=""
           />
@@ -106,7 +117,7 @@
           class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
         >
           <img
-            src="../../assets/concept-apprentissage-education-amour-lecture-personnes-lisant-etudiants-etudiant-se-preparant-examen-dans-bibliotheque-amoureux-livres-lecteurs-litterature-moderne-illustration-vectoriell.jpg"
+            src="../../assets/02/concept-apprentissage-ligne-personnage-dessin-anime_29937-6236.avif"
             class="img-fluid"
             alt=""
           />
@@ -116,17 +127,7 @@
           class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
         >
           <img
-            src="../../assets/concept-apprentissage-ligne-personnage-dessin-anime_29937-6236.avif"
-            class="img-fluid"
-            alt=""
-          />
-        </div>
-
-        <div
-          class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-        >
-          <img
-            src="../../assets/petit-etudiant-fait-cours-apprentissage-ligne-ecole-maison-ordinateur-portable-illustration-internet_10045-661.jpg"
+            src="../../assets/02/petit-etudiant-fait-cours-apprentissage-ligne-ecole-maison-ordinateur-portable-illustration-internet_10045-661.jpg"
             class="img-fluid"
             alt=""
           />
@@ -305,7 +306,7 @@
           <div class="member d-flex align-items-start">
             <div class="pic">
               <img
-                src="../../assets/img/team/illustration-concept-abstrait-competences-informatiques-avancees_335657-3877.jpg"
+                src="../../assets/courses/htmlcssjs.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -331,9 +332,10 @@
           <div class="member d-flex align-items-start">
             <div class="pic">
               <img
-                src="../../assets/img/team/Retrieving-current-directory-in-Python-folder-path-directory-tree-code-logo.jpg"
+                src="../../assets/courses/4by3/05.jpg"
                 class="img-fluid"
                 alt=""
+                style="height: 100%;"
               />
             </div>
             <div class="member-info">
@@ -357,7 +359,7 @@
           <div class="member d-flex align-items-start">
             <div class="pic">
               <img
-                src="../../assets/img/team/concept-apprentissage-isometrique-ligne-etudiant_52683-33749.jpg"
+                src="../../assets/courses/uiux2.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -384,7 +386,7 @@
           <div class="member d-flex align-items-start">
             <div class="pic">
               <img
-                src="../../assets/img/team/images.jpeg"
+                src="../../assets/courses/images.jpeg"
                 class="img-fluid"
                 alt=""
               />
@@ -404,8 +406,8 @@
         </div>
       </div>
       <br /><br />
-      <a href="#">
-        <p style="margin-left: 70%">
+      <a href="/cours">
+        <p style="margin-left: 70%" >
           Plus des cours
           <svg
             xmlns="http://www.w3.org/2000/svg"
