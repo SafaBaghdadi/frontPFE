@@ -1,37 +1,5 @@
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
-	<div class="container d-flex align-items-center">
-	  <a href="index.html" class="logo me-auto"
-		><img src="../../assets/02/Tutturu.png" alt="" class="img-fluid"
-	  /></a>
-  
-	  <nav id="navbar" class="navbar">
-		<ul [ngClass]="{ active: isMobileNavOpen }">
-		  <li><a class="nav-link scrollto active" href="/landing-page">Accueil</a></li>
-		  <li><a class="nav-link scrollto" href="/about">À propos</a></li>
-  
-		  <li class="dropdown">
-			<a href="/cours"><span>Cours</span> <i class="bi bi-chevron-down"></i></a>
-			<ul>
-			  <li><a href="#">Dévelopment web</a></li>
-			  <li><a href="#">Conception web</a></li>
-			  <li><a href="#">Photoshop</a></li>
-			  <li><a href="#">Conception Graphique</a></li>
-			</ul>
-		  </li>
-		  <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
-		  <li>
-			<a class="getstarted scrollto" href="/login" router-link="/login"
-			  >Commencer</a
-			>
-		  </li>
-		</ul>
-		<i class="bi bi-list mobile-nav-toggle" (click)="toggleMobileNav()"></i>
-	  </nav>
-	  <!-- .navbar -->
-	</div>
-  </header>
-  <!-- End Header -->
+<app-navbar-visiteur></app-navbar-visiteur>
+
 
 
 <main>

@@ -28,6 +28,7 @@
               "src/styles.css",
               "src/assets/css/style.css" ,
               "src/assets/assets2/css/style.css" 
+              
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",

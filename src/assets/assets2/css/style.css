@@ -10793,7 +10793,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #6998be !important;
 }
 
 .bg-orange {
@@ -22619,4 +22619,10 @@ html[dir=rtl] .choices__input {
   .dropdown-fullwidth .dropdown-menu  {
     max-width: 100%;
   }
+}
+
+
+.search-mobile {
+  /* Ajoutez ici les styles spécifiques à votre icône de recherche */
+  cursor: pointer; /* Définissez le curseur comme un pointeur pour indiquer qu'il est cliquable */
 }

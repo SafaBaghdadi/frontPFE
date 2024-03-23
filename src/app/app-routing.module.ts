@@ -7,8 +7,11 @@ import { LoginComponent } from './login/login.component';
 
 import { ProfilComponent } from './profil/profil.component';
 import { SignupEnseignantComponent } from './signup-enseignant/signup-enseignant.component';
-import { AboutComponent } from './about/about.component';
+
 import { CoursComponent } from './cours/cours.component';
+import { NavbarVisiteurComponent } from './navbar-visiteur/navbar-visiteur.component';
+import { NavbarUserComponent } from './navbar-user/navbar-user.component';
+import { EleveInterfComponent } from './eleve-interf/eleve-interf.component';
 
 
 
@@ -19,8 +22,11 @@ const routes: Routes = [
   { path: 'profil', component: ProfilComponent },
   { path: 'choosePers', component: ChoosePersComponent },
   { path: 'signup-enseignant', component: SignupEnseignantComponent},
-  { path: 'about', component: AboutComponent},
-  { path: 'cours', component: CoursComponent}
+ 
+  { path: 'cours', component: CoursComponent},
+  { path: 'navbarVisiteur', component: NavbarVisiteurComponent},
+  { path: 'navbarUser', component: NavbarUserComponent},
+  { path: 'EleveInterf', component: EleveInterfComponent}
 ];
 
 @NgModule({
